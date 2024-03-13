@@ -1,0 +1,400 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 5px 12px black;
+
+}
+
+.first-container{
+    background-image: url('152951-abstract-black-background-vector-illustration.jpg');
+    position: relative;
+    height: 545px;
+}
+body {
+  
+    font-family: 'Poppins', sans-serif;
+    color: white;
+
+}
+.intercept{
+    width: 80vw;
+    margin: auto;
+   color: white;
+   margin-top: 30px;
+}
+.button{
+    display: flex;
+    margin-top: 25px;
+}
+.full-about{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+#skills{
+    color: black;
+}
+
+
+.margin-5{
+  width: 80vh;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.progress-bar {
+    height: 14px;
+    background-color: #2ac02a;
+    width: 80%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar {
+    from { width: 0; }
+    to { width: 80%; }
+}
+
+.progress-bar-1 {
+    height: 14px;
+    background-color: #2ac02a;
+    width: 70%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-1 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-1 {
+    from { width: 0; }
+    to { width: 70%; }
+}
+
+.progress-bar-2 {
+
+    height: 14px;
+    background-color: #cac71f;
+    width: 30%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-2 2.5s linear;
+  
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-2 {
+
+    from { width: 0; }
+    to { width: 30%; }
+    
+}
+
+.progress-bar-3 {
+    height: 14px;
+    background-color: #2e26bd;
+    width: 45%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-3 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-3 {
+    from { width: 0; }
+    to { width: 45%; }
+}
+
+.progress-bar-4 {
+    height: 14px;
+    background-color: #cac71f;
+    width: 35%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-4 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-4 {
+    from { width: 0; }
+    to { width: 35%; }
+}
+
+.progress-bar-5 {
+    height: 14px;
+    background-color: #af4c4c;
+    width: 25%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-5 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-5 {
+    from { width: 0; }
+    to { width: 25%; }
+}
+.progress-bar-6 {
+    height: 14px;
+    background-color: #2ac02a;
+    width: 75%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-6 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-6 {
+    from { width: 0; }
+    to { width: 75%; }
+}
+.progress-bar-7 {
+    height: 14px;
+    background-color: #2ac02a;
+    width: 75%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-7 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-7 {
+    from { width: 0; }
+    to { width: 75%; }
+}
+.progress-bar-8 {
+    height: 14px;
+    background-color: #2e26bd;
+    width: 45%;
+    border-radius: 25px;
+    margin: 4px 22px;
+    margin-right: 22px;
+    animation: fillProgressBar-8 2.5s linear;
+}
+
+/* Animation keyframes (optional) */
+@keyframes fillProgressBar-8 {
+    from { width: 0; }
+    to { width: 45%; }
+}
+.intercept-1{
+    width: 80vw;
+    margin: auto;
+    color: rgb(4, 4, 4);
+    margin-top: 35px;    /* margin-bottom: 12px; */
+    border: none;
+    border-top: 3px solid white;
+    font-weight: bold;
+}
+
+.second-section{
+    background-color: #11101a;
+    color: white;
+}
+
+.third-section{
+    background-color: #11101a;
+    color: white;
+}
+
+.forth-section{
+    background-color: #11101a;
+    color: white;
+}
+
+.fifth-section{
+    background-color: #11101a;
+    position: relative;
+    height: 600px;
+    color: black;
+}
+
+.sixth-section{
+
+    background-color: #11101a;
+    height: 590px;
+    color: black;
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.heading-3{
+    padding-top: 135px;
+    background-color: #11101a;
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    background-color: #9e00ff;
+    color: white;
+    height: 270px;
+    width: 100%;
+    display: flex;
+}
+
+.last-footer{
+    display:flex ;
+}
+
+.timeline-part{
+    background-color: #11101a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+
+.timeline ul li {
+  padding: 20px;
+  background-color: #9e00ff;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-content h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.timeline-content h2 {
+    font-weight: 500;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+.timeline-content p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.timeline-content .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+
+  .timeline ul li {
+
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  
+  }
+
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+    top: 0px;
+  }
+
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+
+  .timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+
+  .timeline ul li:hover::before {
+    background-color: rgb(202, 29, 255);
+  }
+}
+
+.project-para{
+
+  font-size: 0.5rem;
+  text-align: center;
+  color: rgb(151, 151, 151);
+  padding: 12px 12px;
+
+}
